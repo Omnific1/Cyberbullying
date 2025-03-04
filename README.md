@@ -2,26 +2,24 @@
 AI-Powered Cyberbullying Detection with a unique reputation scoring mechanism
 Cyberbullying isn’t just an abstract concept; it’s a harsh reality for millions of individuals. Picture a young student dreading to open their social media app, unsure of what hateful comment might await them. Or a parent, watching helplessly as their child struggles with the emotional toll of online harassment. These moments drive home the urgency to act.
 
-This blog is more than a technical guide — it’s a call to action. With Google Cloud’s Vertex AI, we can create a powerful, AI-driven shield against cyberbullying. Whether you’re a developer eager to make an impact, a policymaker crafting solutions, or an advocate for safer digital spaces, this guide will show you how to use cutting-edge AI tools to make a tangible difference.
 
-Design
-Effective cyberbullying detection requires a solution that’s both scalable and nuanced — a tool that understands context and identifies harmful patterns with precision. Google Cloud’s Vertex AI stands out as the ideal platform for tackling this challenge.
+CyberShield is an **AI-driven platform** designed to detect and prevent cyberbullying on **social media platforms**. Using **Natural Language Processing (NLP)** and **Machine Learning (LSTM networks)**, it identifies offensive content, classifies it, and enforces **real-time reputation scoring** to curb online harassment.  
 
-Key Design Choices
-Pre-trained NLP Models
-Use Google’s Text-Bison model for natural language processing, ensuring speed and accuracy.
+## 🚀 Features  
+✅ **Text, Image & Voice-Based Detection** – AI scans comments, images, and voice recordings for harmful content.  
+✅ **Automated Reputation System** – Offenders get a **reduced reputation score**, discouraging toxic behavior.  
+✅ **Real-Time Moderation** – Offensive content is flagged instantly to maintain a safe online environment.  
+✅ **User-Friendly Dashboard** – Monitor flagged posts and user reputation with an intuitive interface.  
+✅ **Multi-Language Support** – Detects harmful content in **English, Hindi, and Kannada**.  
 
-2. Customizability
+## 🛠 Technologies Used  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Flask, Python  
+- **Machine Learning:** LSTM, NLP, TensorFlow  
+- **Database:** Firebase / MySQL  
+- **APIs & Services:** Google Translate, OpenAI NLP Models  
 
-Fine-tune the model using algorithms like LSTM to detect regional slang, sarcasm, and evolving abusive language.
 
-3. Real-time Monitoring
-
-Enable immediate intervention by flagging harmful content in real time.
-
-4. Reputation Scoring Mechanism
-
-A unique feature which scores the user based on the kind of activity they are engaged in.
 
 Main Design
 Data Storage with BigQuery: (GCP)
